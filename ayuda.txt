@@ -1,0 +1,34 @@
+Intrucciones de la aventura conversacional.
+
+Objetivo:	Salir vivo de la aventura con la máxima puntuación posible.
+			Para ello el jugador empezara en una habitación inicial y se deberá ir moviendo
+			por el resto de habitaciones hasta encontrar la salida.
+			Cada habitación puede contener o no una lista de objetos, los cuales el jugador
+			podra coger y añadir a su propio inventario. Una vez en el inventario puede usarlos.
+			Cada vez que el jugador se mueve de habitación pierde 5 de vida.
+			Durante el transcurso de la aventura el jugador puede ganar puntos de vida usando
+			objetos del inventario, tambien puede perderlos si usa objetos no adecuados. Al igual
+			pasa con la puntuación.
+
+INFORMACIÓN DE LA APLICACIÓN
+
+Acciones: se dispone de un panel con las acciones que puede realizar un jugador.
+	Comandos que puede realizar el jugador:
+		- Ir: se mueve en la posición seleccionada (Norte, Sur, Este, Oeste).
+		- Coger: coge el objeto seleccionado. Se añade al inventario del jugador.
+		- Tirar: arroja el objeto en la habitación actual.
+		- Usar: usa el objeto, puede ser una llave, un objeto de puntuación o un objeto de vida.
+		- Salir: sale del juego
+		
+Información del jugador: muestra la información del jugador, tal como la vida, la puntuación y el inventario.
+
+Mapa: 	se muestra el mapa en el que el jugador puede ver las habitaciónes. Se irá moviendo por ellas
+		segun la dirección en la que desee ir y si existe habitación se desplaza hacia ella en caso
+		de que este la puerta abierta.
+		En este apartado le saldrá la descripción de la habitación en la que se encuentre y si dispone
+		de inventario la aplicación.
+		
+OBJETOS:
+	- Llave: se usa para abrir/cerrar puertas
+	- Comida: se usa para aumentar/reducir la vida del jugador
+	- Objetos de valor: se usa para aumentar/reducir la puntuación
